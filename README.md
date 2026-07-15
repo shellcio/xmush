@@ -1,34 +1,34 @@
 # XMush - Telegram Mini App (React + Vite)
 
-XMush is a high-performance digital store designed specifically for Telegram as a Mini App. It is built using React and Vite, featuring seamless client navigation, dynamic catalog management, state-driven cart, and a custom animated preloader.
+XMush — это высокопроизводительный цифровой магазин, разработанный специально для Telegram в формате Mini App. Он построен на React и Vite, поддерживает плавную навигацию на клиенте, динамическое управление каталогом, корзину на состояниях (state-driven) и кастомный анимированный загрузочный экран.
 
-## Core Features
+## Основные возможности
 
-1. **Catalog & Categories**:
-   - Organized into categories: Telegram Numbers, Proxies, Bots, and Accounts.
-   - Dynamic grid displaying available products with quick actions.
-2. **Cart Management**:
-   - Real-time cart calculation and state management.
-   - Dynamic badge display on bottom navigation.
-   - Detailed checkout review page and validation.
-3. **Settings & Profile**:
-   - Custom slide-up bottom sheets with optimized mode toggles.
-   - Integrated referral management page and stats dashboards.
-   - Native Telegram WebApp Haptic Feedback and notifications system.
+1. **Каталог и категории**:
+   - Структурирован по категориям: Номера для ТГ, Прокси, Боты и Аккаунты.
+   - Динамическая сетка отображения доступных товаров с быстрыми действиями.
+2. **Управление корзиной**:
+   - Расчет стоимости и управление состоянием корзины в реальном времени.
+   - Динамический бейдж с количеством товаров на нижней панели навигации.
+   - Подробная страница проверки и валидации заказа перед оформлением.
+3. **Настройки и профиль**:
+   - Кастомные выдвижные шторки (bottom sheets) с переключателями оптимизированного режима.
+   - Интегрированная страница реферальной системы и панели статистики.
+   - Поддержка нативной вибрации (Haptic Feedback) Telegram WebApp и системы уведомлений.
 
-## Setup and Running
+## Запуск и установка
 
-Install dependencies:
+Установка зависимостей:
 ```bash
 npm install
 ```
 
-Start local development server:
+Запуск локального сервера разработки:
 ```bash
 npm run dev
 ```
 
-Build for production:
+Сборка для продакшна:
 ```bash
 npm run build
 ```
